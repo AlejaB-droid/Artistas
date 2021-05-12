@@ -1,0 +1,63 @@
+.cafe {
+    background-color: rgb(189, 155, 5);
+}
+
+.azul {
+    background-color: skyblue;
+}
+
+.smoke {
+    background-color:whitesmoke;
+}
+
+.cuartetoLayout{
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.cuartetoLayout > img {
+    border: 2px solid white;
+    width: 50%;
+    margin: 10px 10px 10px 0px;
+}
+
+.cuartetoLayout div p {
+    margin: 10px;
+}
+
+.cuartetoTittle {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.fontawesomekit {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 0px;
+}
+
+.fontawesomekit li {
+    font-size: 20px;
+}
+
+.verde {
+    color:green;
+}
+
+.rosado {
+    color: purple;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+footer {
+    background-color:black;
+    color:white;
+    font-size: 12px;
+}
