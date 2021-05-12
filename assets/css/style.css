@@ -61,3 +61,58 @@ footer {
     color:white;
     font-size: 12px;
 }
+
+
+/* Estilos Linkin  Park */
+
+body {
+    background-color: #473930;
+}
+
+.cover-container {
+    background-image: url(../img/cover_lk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.cover-container h1 {
+    color: #FFFF;
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+}
+
+.main-container {
+   margin: 0 auto;
+   width: 90%;
+   color: #f8d9cf;
+}
+.main-container h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main-container .container-trajectory {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 25px;
+}
+
+.main-container .container-artists {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    font-size: 25px;
+}
+
+.photo-artist  {
+    width: 200px;
+}
+
+.photo-artist img {
+    width: 100%;
+}

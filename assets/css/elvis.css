@@ -1,0 +1,52 @@
+body{
+    background-color:antiquewhite;
+}
+
+.banner{
+    background-color:rgb(204, 192, 167);
+    border: 2px solid rgb(157, 168, 168);
+}
+
+.banner h1{
+    color:black;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.biografia h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.biografia .picture{
+    float: left;
+    padding: 10px;
+}
+
+.picture img{
+    width: 250px;
+    height: 310px;
+}
+
+.hits h2{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.hits .tabla{
+    float: left;
+    width: 600px;
+}
+
+.hits .spotify{
+    float: right;
+}
+
+footer{
+    background-color:rgb(204, 192, 167);
+    text-align: center;
+    padding: 10px 30px;
+}
