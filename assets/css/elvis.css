@@ -36,6 +36,11 @@ body{
     font-size: 30px;
 }
 
+.hits .tabla{
+    float: left;
+    width: 600px;
+}
+
 .hits .spotify{
     float: right;
 }
@@ -43,4 +48,5 @@ body{
 footer{
     background-color:rgb(204, 192, 167);
     text-align: center;
+    padding: 10px 30px;
 }
