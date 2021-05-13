@@ -3,3 +3,38 @@
     top:0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+.fixed{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.home{
+    background-image: url(../img/boneym/boneyM.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.containers{
+    width: 1250px;
+    margin: auto;
+}
+.btn-youtube{
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c4302b;
+    color: white;
+
+}
+.btn-spotify{
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#1DB954;
+    color: white;
+
+}
