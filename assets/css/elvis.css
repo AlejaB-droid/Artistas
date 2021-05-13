@@ -2,6 +2,15 @@ body{
     background-color:antiquewhite;
 }
 
+
+.header a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    float: right;
+    height: 40px;
+}
+
 .banner{
     background-color:rgb(204, 192, 167);
     border: 2px solid rgb(157, 168, 168);
@@ -38,15 +47,22 @@ body{
 
 .hits .tabla{
     float: left;
-    width: 600px;
-}
+    width: 965px;
+} 
 
 .hits .spotify{
     float: right;
 }
 
+.gallery {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding: 0px 40px;
+}
+
 footer{
     background-color:rgb(204, 192, 167);
     text-align: center;
-    padding: 10px 30px;
+    padding: 20px 0px;
 }
