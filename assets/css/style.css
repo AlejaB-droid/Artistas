@@ -170,25 +170,29 @@ footer {
 	background-color: black;
 	color: white;
 	font-size: 12px;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
 }
 
 /* Estilos Linkin  Park */
 
-body {
+.main-linkinPark {
 	background-color: #473930;
+	margin-bottom: 55px;
 }
 
 .cover-container {
 	background-image: url(../img/cover_lk.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	background-position: center;
+	height: 650px;
+	width: 100%;
 	position: relative;
 }
 .cover-container h1 {
@@ -200,11 +204,11 @@ body {
 }
 
 .cover-container a {
-    display: block;
-    padding: 20px;
-    color: #ffff;
-    font-size: 35px;
-    text-decoration: none;
+	display: block;
+	padding: 20px;
+	color: #ffff;
+	font-size: 35px;
+	text-decoration: none;
 }
 
 .main-container {
@@ -216,13 +220,25 @@ body {
 	font-size: 45px;
 	font-weight: bold;
 	text-align: center;
-	margin: 30px 0;
+	margin-bottom: 30px;
 }
 
 .main-container .container-trajectory {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	font-size: 25px;
+}
+.main-container .container-trajectory p {
+
+	justify-self: center;
+	align-self: center;
+	padding: 30px;
+}
+.main-container .container-trajectory figure {
+	width: 100%;
+}
+.main-container .container-trajectory figure img{
+	width: 100%;
 }
 
 .main-container .container-artists {
@@ -234,8 +250,21 @@ body {
 
 .photo-artist {
 	width: 200px;
+	justify-self: center;
+	align-self: center;
 }
 
 .photo-artist img {
 	width: 100%;
+}
+
+/* Responsive Linkin Park */
+@media (max-width: 768px) {
+	.main-container .container-trajectory {
+		grid-template-columns: 1fr;
+	}
+
+	.main-container .container-artists {
+		grid-template-columns: 1fr;
+	}
 }
